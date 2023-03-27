@@ -1,0 +1,178 @@
+<html>
+
+<head>
+
+ <style="text/css"></style>
+ 
+ <link rel="stylesheet" href="./css/contacts.css">
+ 
+ <script>
+
+function check_submit_form()
+{
+
+var one=document.getElementById('input1').value;
+var two=document.getElementById('input2').value;
+var three=document.getElementById('input3').value;
+var four=document.getElementById('input4').value;
+var five=document.getElementById('input5').value;
+var six=document.getElementById('input6').value;
+var seven=document.getElementById('input7').value;
+
+if(one=="")
+{
+	  alert('Pls enter first name');
+	  return false;
+	}
+	
+	else if(two=="")
+	{
+	
+	     alert('Pls enter last name ');
+	  return false;
+	
+	}
+	
+	
+	else if(three=="")
+	{
+	
+	     alert('Enter email address');
+	  return false;
+	
+	}
+	
+	 else if(four=="")
+	{
+	
+	     alert('Enter contact No');
+	  return false;
+	
+	}
+	
+	else if(five=="")
+	{
+	
+	     alert('How did you here a about Us');
+	  return false;
+	
+	}
+	
+	else if(six=="")
+	{
+	
+	     alert('Enter what are u lookingFor');
+	  return false;
+	
+	}
+	
+	else if(seven=="")
+	{
+	
+	     alert('Enter description');
+	  return false;
+	}
+	
+	  
+	else
+		  {
+		  alert('submited');
+		  return true;
+		  }
+
+
+}
+</script>
+</head>
+ </head>
+ 
+ <body>
+ 
+ 
+ 
+    <div id="center-all">
+	  
+	   <header class="main-header">
+	   <img id="main-header" src="../count/images/cont.jpg">
+	   
+	 </header>
+	 
+	  <section class="main-section">
+	  
+	  <h1 id="h1">CONTACT US</h1>
+	  
+	    
+ <form action="sumrca.html" method="post" onsubmit="return check_submit_form();">		
+ <div id="div2">
+    <h2 id="h2">Specific Contact Details</h2>
+     
+	 <p id="p1">
+	 First name
+	 <input id="input1"type="textbox" placeholder="First Name"/>
+	 </p>
+	 
+	 <p id="p2">
+	 Last name
+	 <input id="input2"type="textbox" placeholder="Last Name"/>
+	 </p>
+	 
+	 <p id="p3">
+	 Email addres
+	 <input id="input3"type="textbox" placeholder="Email"/>
+	 <p>
+	 
+	 <p id="p4">
+	 Contact No
+	 <input id="input4"type="textbox" placeholder="Contact No"/>
+     </p>
+    
+     <p id="p5">
+     How did you here a about Us?*	 
+	 <select id="input5">month
+	 <option selected>select
+	 <option>jan
+	 <option>feb
+	 <option>march
+	 <option>apr
+	 <option>may
+	 </select>
+	 </p>
+	 
+	 
+	 <p id="p6">
+	 What are u lookingFor?	 
+	 <select id="input6">month
+	 <option selected>select
+	 <option>jan
+	 <option>feb
+	 <option>march
+	 <option>apr
+	 <option>may</select>
+	 </p>
+	 
+	 <p id="p7">
+	 Description
+	 <input id="input7"type="textbox" placeholder="massege"/>
+	 </p>
+	 
+	</div>
+	<!-- <p id="c">Submit</p> -->
+	<input id="su" type="submit" value="login">
+	 </form> 
+	 </section>
+	  <aside class="main-aside1">
+	  
+  <iframe id="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62211.34550950002!2d77.64247884808985!3d12.958468033671917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1234b98edc2d%3A0xdd9d994a22f90c78!2sMy%20Interior!5e0!3m2!1sen!2sin!4v1679663673437!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+	  
+	</aside>
+	
+  </div>
+  
+ </body>
+ 
+</html>
+
+	
+	   
+	   
